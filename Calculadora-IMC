@@ -1,8 +1,8 @@
-# Exercício proposto - criar uma calculadora-imc, utilizando o IMC = peso (kg) / altura(m) x altura(m) #
-# Devendo preencher os dados de peso e altura, nas respectivas linhas 4 e 5. O resultado, mostrará se a pessoa está dentro do peso ideal, abaixo ou acima do peso. # 
+// Exercício proposto - criar uma calculadora-imc, utilizando o IMC = peso (kg) / altura(m) x altura(m) //
+// Devendo preencher os dados de peso e altura, nas respectivas linhas 4 e 5. O resultado, mostrará se a pessoa está dentro do peso ideal, abaixo ou acima do peso. //
 
-peso = float (input('Informe o seu peso:' ))
-altura = float (input('Informe a sua altura:' ))
+peso = float (input('Informe o seu peso:' 60 ))
+altura = float (input('Informe a sua altura:' 1.63 ))
 imc = peso / (pow(altura, 2))
 
 print(f'Seu índice de massa corporal é: {imc:.2f}')
